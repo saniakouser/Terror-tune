@@ -1,0 +1,17 @@
+.dashboardbg {
+  height:60vh;
+  width:100vw;
+}
+.bodypart{
+  background-color: black;
+  width: 100%;
+}
+.middlepart{
+  height: 30rem;
+  /* background-color: red; */
+  /* background-image: url('../../assets/haunted1.jpg'); */
+}
+.dashboardcard{
+    display: flex;
+    justify-content: space-evenly;
+  }

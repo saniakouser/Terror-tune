@@ -1,0 +1,91 @@
+
+.outer {
+    /* height: 100vh; */
+    background-image: url('./g4.jpg');
+    display:flex;
+    justify-content:center ;
+    flex-direction: column;
+    align-items: center;
+    /* background-size: cover; */
+    object-fit: cover;
+    overflow-y: hidden;
+    background-size: 100% 100%;
+    /* background-position: center;  */
+
+  }
+  .nav{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+  }
+
+  .logincon {
+     height: auto;
+    width: 90%; 
+    position: absolute;
+    top:10rem;
+    left:50%;
+    transform: translateX(-50%);
+    max-width: 400px; 
+    margin: auto; 
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 0 10px #2AFF3D, 0 0 20px #2AFF3D, 0 0 30px #2AFF3D;
+     
+    }
+        
+  
+  .myform {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .heading {
+    color: #2AFF3D;
+  }
+  
+  .lab {
+    color: aliceblue;
+  }
+  
+  form p {
+    color: rgb(138, 138, 117);
+  }
+  
+  .loginbtn {
+    height: 3rem;
+    width: 100%; /* Full width for responsiveness */
+    max-width: 200px; /* Set a maximum width for larger screens */
+    border-radius: 1rem;
+    background-color: rgb(107, 255, 122);
+    color: black;
+    border: 1px solid rgb(255, 41, 41);
+  }
+  
+  .loginbtn:active {
+    background-color: rgb(56, 104, 61);
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .logincon {
+      width: 90%; /* Adjusted width for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .logincon {
+      width: 100%; /* Full width for even smaller screens */
+    }
+    .myform {
+      margin-left: 10px; /* Adjusted for smaller screens */
+      margin-right: 10px;
+    }
+  }
+  
